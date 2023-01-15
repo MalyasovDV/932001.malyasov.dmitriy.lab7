@@ -1,0 +1,33 @@
+.triangle{
+    position: absolute;
+    opacity: .8;
+    border-left: 0 solid transparent;
+    border-right: 0 solid transparent;
+    border-bottom: 0 solid blue;
+}
+.square{
+    position: absolute;
+    background:red;
+    border: 1px solid black;
+    opacity: .8;
+}
+.circle{
+    position: absolute;
+	background: green;
+    border-radius: 50px;
+    border: 1px solid black;
+    opacity: .8;
+}
+#out{
+    position: absolute;
+}
+
+.triangle:hover{
+    border-bottom-color: yellow;
+}
+.circle:hover{
+    background: yellow;
+}
+.square:hover{
+    background: yellow;
+}
